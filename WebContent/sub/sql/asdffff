@@ -1,0 +1,22 @@
+show databases;
+
+use upcm;
+
+show tables;
+
+select * from upcm_image_content;
+
+
+CREATE TABLE upcm_image_content (
+	 
+	id varchar(200),
+	title varchar(200),
+	content varchar(200),
+	filename varchar(200),
+	index(id)
+);
+
+drop table upcm_image_content
+
+
+
